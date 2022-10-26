@@ -2,6 +2,8 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background: url(https://images3.alphacoders.com/103/1034504.jpg);
+    color: white;
 }
 .painel{
     text-align: center;
