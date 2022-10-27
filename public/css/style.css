@@ -4,6 +4,7 @@ body{
     box-sizing: border-box;
     background: url(https://images3.alphacoders.com/103/1034504.jpg);
     color: white;
+    overflow: hidden;
 }
 .painel{
     text-align: center;
@@ -27,4 +28,24 @@ body{
 }
 .elemento:hover{
     text-decoration: underline;
+}
+.nome{
+    border: none;
+    border-radius: 3px;
+}
+.senha{
+    border: none;
+    border-radius: 3px;
+}
+.nome:active{
+    border: outset;
+    
+}
+.senha:active{
+    border: outset;
+}
+@media (max-width: 450px) {
+    header {
+      justify-content: center;
+    }
 }
