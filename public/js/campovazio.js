@@ -3,7 +3,15 @@ const nome = document.getElementById('nome')
 const senha = document.getElementById('senha')
 
 
-function teste() {
+function google() {
+    Swal.fire(
+        'Abrindo google aguarde',
+        'Caso não abra tenta fechar e abrir novamente',
+        'info',
+    );
+}
+
+function campos() {
     if (nome.value == "" || senha.value == "") {
         Swal.fire(
             'Campos vazios!',
@@ -34,7 +42,7 @@ function esqueceusenha() {
     Swal.fire({
         title: 'Esqueci minha senha',
         html: `<input type="email" id="login" class="swal2-input" placeholder="Digite seu email">`,
-        confirmButtonText: 'Enviar email',
+        confirmButtonText:  'Enviar email',
         focusConfirm: false,
         preConfirm: () => {
             const login = Swal.getPopup().querySelector('#login').value
