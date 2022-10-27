@@ -21,3 +21,10 @@ body{
     color: white;
     border: outset;
 }
+.elemento{
+    text-decoration: none;
+    cursor: pointer;
+}
+.elemento:hover{
+    text-decoration: underline;
+}
